@@ -28,7 +28,7 @@ export default function Hero() {
 
       {/* ── Buildings image — absolutely flush to right edge, desktop only ── */}
       <motion.img
-        src="/buildings-transparent.png"
+        src="/buildings-transparent.webp"
         alt=""
         aria-hidden="true"
         fetchPriority="high"
@@ -48,7 +48,7 @@ export default function Hero() {
       {/* ── Mobile: buildings as faded background ── */}
       <div className="lg:hidden absolute inset-0 pointer-events-none" style={{ zIndex: 1 }}>
         <img
-          src="/buildings-transparent.png"
+          src="/buildings-transparent.webp"
           alt="Mobile decorative background graphic showing home service buildings"
           aria-hidden
           className="absolute bottom-0 right-0 select-none w-full"
