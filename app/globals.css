@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F4F0E8;
+    color: #0D1F18;
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: rgba(13, 92, 58, 0.15);
+    color: #0D1F18;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #F4F0E8;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #DED8CC;
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(13, 31, 24, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(13, 31, 24, 0.04) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  /* Dark green gradient for text on light bg */
+  .text-gradient-accent {
+    background: linear-gradient(135deg, #0D5C3A 0%, #1A8F5C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .accent-glow {
+    box-shadow: 0 0 40px rgba(13, 92, 58, 0.12), 0 0 80px rgba(13, 92, 58, 0.05);
+  }
+
+  .card-border {
+    border: 1px solid #DED8CC;
+    background: #FFFFFF;
+  }
+
+  .font-heading {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
