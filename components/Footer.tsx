@@ -22,38 +22,38 @@ export default function Footer() {
       <div className="absolute inset-0 pointer-events-none"
         style={{ background: 'radial-gradient(ellipse 60% 50% at 50% 0%, rgba(100,237,187,0.04), transparent)' }} />
 
-      {/* Final CTA strip */}
+      {/* Final CTA strip — cream/beige background */}
       <div className="relative py-20 lg:py-28 border-b overflow-hidden"
-        style={{ borderColor: 'rgba(244,240,232,0.08)' }}>
+        style={{ background: '#F4F0E8', borderColor: 'rgba(13,31,24,0.08)' }}>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection>
             <p className="text-xs font-heading font-medium uppercase tracking-[0.2em] mb-5"
-              style={{ color: 'rgba(100,237,187,0.5)' }}>
+              style={{ color: '#5A7A6A', letterSpacing: '0.2em' }}>
               Ready?
             </p>
           </AnimatedSection>
           <AnimatedSection delay={0.1}>
             <h2 className="font-heading font-bold text-3xl sm:text-5xl lg:text-6xl tracking-tighter mb-4 leading-tight"
-              style={{ color: '#F4F0E8' }}>
+              style={{ color: '#0D1F18' }}>
               Stop losing jobs
-              <br /><span style={{ color: 'rgba(244,240,232,0.4)' }}>to your voicemail.</span>
+              <br /><span style={{ color: 'rgba(13,31,24,0.35)' }}>to your voicemail.</span>
             </h2>
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
-            <p className="max-w-md mx-auto mb-8" style={{ color: 'rgba(244,240,232,0.5)' }}>
+            <p className="max-w-md mx-auto mb-8" style={{ color: '#5A7A6A' }}>
               2 weeks free. No credit card. No contract. If it doesn&rsquo;t make you money, you owe us nothing.
             </p>
           </AnimatedSection>
           <AnimatedSection delay={0.25}>
             <a href="https://calendly.com/d/cx85-p96-f7t/bokt-home-introduction" target="_blank" rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-8 py-4 font-heading font-bold text-base rounded-xl transition-all duration-200"
-              style={{ background: '#64EDBB', color: '#0D1F18' }}
-              onMouseEnter={e => { e.currentTarget.style.boxShadow = '0 0 40px rgba(100,237,187,0.25)'; e.currentTarget.style.opacity = '0.9' }}
-              onMouseLeave={e => { e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.opacity = '1' }}>
+              style={{ background: '#0D1F18', color: '#64EDBB' }}
+              onMouseEnter={e => { e.currentTarget.style.background = '#1A3828'; e.currentTarget.style.boxShadow = '0 8px 32px rgba(13,31,24,0.2)'; }}
+              onMouseLeave={e => { e.currentTarget.style.background = '#0D1F18'; e.currentTarget.style.boxShadow = 'none'; }}>
               Start Free Trial
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
             </a>
-            <p className="text-sm mt-4" style={{ color: 'rgba(244,240,232,0.3)' }}>
+            <p className="text-sm mt-4" style={{ color: '#8AADA0' }}>
               Then $497/mo. Cancel anytime.
             </p>
           </AnimatedSection>
