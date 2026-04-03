@@ -75,8 +75,8 @@ export default function Footer() {
 
           <nav className="flex flex-wrap gap-x-8 gap-y-2">
             {[
-              { label: 'Call Triage', href: '#features' },
               { label: 'Google Maps', href: '#local-map' },
+              { label: 'Call Triage', href: '#features' },
               { label: 'Pricing',     href: '#pricing'   },
               { label: 'FAQ',         href: '#faq'       },
               { label: 'Book a Call', href: 'https://calendly.com/d/cx85-p96-f7t/bokt-home-introduction', external: true },

@@ -17,8 +17,8 @@ const BrickMark = ({ color }: { color: string }) => (
 )
 
 const navLinks = [
-  { label: 'Call Triage', href: '#features'  },
   { label: 'Google Maps', href: '#local-map' },
+  { label: 'Call Triage', href: '#features'  },
   { label: 'Pricing',     href: '#pricing'   },
   { label: 'FAQ',         href: '#faq'       },
 ]

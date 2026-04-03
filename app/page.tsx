@@ -14,8 +14,8 @@ export default function Home() {
       <Nav />
       <Hero />
       <StatsBanner />
-      <Features />
       <LocalMapSection />
+      <Features />
       <POSSection />
       <Pricing />
       <FAQ />
