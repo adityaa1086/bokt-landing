@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     description: 'Never miss a call. Own your local map.',
     type: 'website',
   },
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
