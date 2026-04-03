@@ -464,13 +464,16 @@ export default function LocalMapSection() {
                 <div className="p-5">
                   {/* Form — always visible */}
                   <form onSubmit={handleSubmit} className="flex gap-2 mb-5">
+                    <label htmlFor="biz-audit-input" className="sr-only">Your business name</label>
                     <input
+                      id="biz-audit-input"
                       value={input}
                       onChange={e => setInput(e.target.value)}
                       placeholder="Your business name…"
                       className="flex-1 text-sm px-4 py-3 rounded-xl border border-bdr bg-bg-surface text-ink placeholder:text-ink-subtle focus:outline-none focus:border-accent/40 transition-colors"
                     />
                     <button type="submit" disabled={!input.trim() || phase === 'scanning'}
+                      aria-label="Run ranking audit"
                       className="px-4 py-3 rounded-xl text-xs font-heading font-bold transition-all disabled:opacity-30 hover:opacity-85"
                       style={{ background: '#0D1F18', color: '#64EDBB' }}>
                       Audit

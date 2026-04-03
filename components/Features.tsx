@@ -262,14 +262,16 @@ function CallSimulator() {
       {/* ── Input bar ── */}
       <div className="px-4 sm:px-6 pb-6 pt-4 border-t border-bdr">
         <div className="flex gap-2 mb-3">
+          <label htmlFor="call-sim-input" className="sr-only">Type a customer message</label>
           <input
+            id="call-sim-input"
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={e => e.key === 'Enter' && submit()}
             placeholder="Type what your customer might say…"
             className="flex-1 text-sm px-4 py-3 rounded-xl border border-bdr bg-bg text-ink placeholder:text-ink-subtle focus:outline-none focus:border-accent/40 transition-colors"
           />
-          <button onClick={submit} disabled={!input.trim()}
+          <button onClick={submit} disabled={!input.trim()} aria-label="Send message"
             className="w-11 h-11 rounded-xl bg-ink flex items-center justify-center shrink-0 transition-opacity disabled:opacity-30 hover:opacity-80">
             <Send size={13} style={{ color: '#64EDBB' }} />
           </button>

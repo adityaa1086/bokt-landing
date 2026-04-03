@@ -29,8 +29,9 @@ export default function Hero() {
       {/* ── Buildings image — absolutely flush to right edge, desktop only ── */}
       <motion.img
         src="/buildings-transparent.png"
-        alt="Decorative background graphic showing home service buildings"
-        aria-hidden
+        alt=""
+        aria-hidden="true"
+        fetchPriority="high"
         initial={{ opacity: 0, scale: 0.97, y: 20 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ delay: 0.25, duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
