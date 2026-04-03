@@ -29,7 +29,7 @@ export default function Hero() {
       {/* ── Buildings image — absolutely flush to right edge, desktop only ── */}
       <motion.img
         src="/buildings-transparent.png"
-        alt=""
+        alt="Decorative background graphic showing home service buildings"
         aria-hidden
         initial={{ opacity: 0, scale: 0.97, y: 20 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -48,7 +48,7 @@ export default function Hero() {
       <div className="lg:hidden absolute inset-0 pointer-events-none" style={{ zIndex: 1 }}>
         <img
           src="/buildings-transparent.png"
-          alt=""
+          alt="Mobile decorative background graphic showing home service buildings"
           aria-hidden
           className="absolute bottom-0 right-0 select-none w-full"
           style={{ opacity: 0.13, transform: 'translateX(15%) scale(1.1)', transformOrigin: 'bottom right' }}
@@ -188,6 +188,7 @@ export default function Hero() {
           <motion.h1 custom={0.1} variants={fade} initial="hidden" animate="visible"
             className="font-heading font-bold tracking-tighter leading-[0.91] mb-6 sm:mb-8"
             style={{ fontSize: 'clamp(2.8rem, 5.8vw, 5.8rem)', color: '#0D1F18' }}>
+            <span className="sr-only">AI Call Answering & Google Maps for Home Services.</span>
             Found on Google.
             <br />Calls answered.
             <br /><span className="text-gradient-accent">Jobs paid.</span>

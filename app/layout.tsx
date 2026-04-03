@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://home.getbokt.com'),
   title: 'BOKT — AI Call Answering & Google Maps for Home Services',
   description:
-    'Never miss a call. Own your local map. BOKT answers every call 24/7 and optimizes your Google Maps listing — so your home service business gets more jobs, not more voicemails.',
+    'BOKT answers every call 24/7 and optimizes your Google Maps ranking. Your home service business gets more jobs, not more voicemails.',
   keywords:
     'AI answering service, Google Maps optimization, plumber, electrician, roofer, HVAC, home service business',
   alternates: {
