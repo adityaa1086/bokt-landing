@@ -99,8 +99,11 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} BOKT. All rights reserved.
           </p>
           <div className="flex gap-6">
-            {['Privacy Policy', 'Terms of Service'].map(label => (
-              <a key={label} href="#" className="text-xs transition-colors"
+            {[
+              { label: 'Privacy Policy', href: '/privacy' },
+              { label: 'Terms of Service', href: '/terms' },
+            ].map(({ label, href }) => (
+              <a key={label} href={href} className="text-xs transition-colors"
                 style={{ color: 'rgba(244,240,232,0.25)' }}
                 onMouseEnter={e => (e.currentTarget.style.color = 'rgba(244,240,232,0.5)')}
                 onMouseLeave={e => (e.currentTarget.style.color = 'rgba(244,240,232,0.25)')}>
