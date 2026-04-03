@@ -52,12 +52,12 @@ export default function Hero() {
           alt="Mobile decorative background graphic showing home service buildings"
           aria-hidden
           className="absolute bottom-0 right-0 select-none w-full"
-          style={{ opacity: 0.13, transform: 'translateX(15%) scale(1.1)', transformOrigin: 'bottom right' }}
+          style={{ opacity: 0.28, transform: 'translateX(15%) scale(1.1)', transformOrigin: 'bottom right' }}
           draggable={false}
         />
         {/* Gradient so text on the left is fully readable */}
         <div className="absolute inset-0" style={{
-          background: 'linear-gradient(to right, #F4F0E8 55%, rgba(244,240,232,0.85) 75%, transparent 100%), linear-gradient(to top, transparent 50%, #F4F0E8 85%)',
+          background: 'linear-gradient(to right, #F4F0E8 40%, rgba(244,240,232,0.7) 65%, transparent 100%), linear-gradient(to top, transparent 40%, #F4F0E8 80%)',
         }} />
       </div>
 
