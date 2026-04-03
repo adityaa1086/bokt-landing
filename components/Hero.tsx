@@ -36,7 +36,7 @@ export default function Hero() {
         transition={{ delay: 0.25, duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
         className="absolute bottom-0 right-0 select-none pointer-events-none hidden lg:block"
         style={{
-          width: '54vw',
+          width: '44vw',
           maxWidth: 'none',
           filter: 'drop-shadow(0 24px 80px rgba(13,31,24,0.14))',
           zIndex: 1,
