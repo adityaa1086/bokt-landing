@@ -1,8 +1,9 @@
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import StatsBanner from '@/components/StatsBanner'
-import Features from '@/components/Features'
+import PainSection from '@/components/PainSection'
 import LocalMapSection from '@/components/LocalMapSection'
+import Features from '@/components/Features'
 import POSSection from '@/components/POSSection'
 import Pricing from '@/components/Pricing'
 import FAQ from '@/components/FAQ'
@@ -14,6 +15,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <StatsBanner />
+      <PainSection />
       <LocalMapSection />
       <Features />
       <POSSection />

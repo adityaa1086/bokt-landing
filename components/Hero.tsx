@@ -86,11 +86,11 @@ export default function Hero() {
         </div>
         <div>
           <p className="text-[11px] font-heading font-bold text-bg leading-none mb-0.5">#1 Map Pack</p>
-          <p className="text-[9px] font-heading text-accent/60 leading-none">+44% more calls</p>
+          <p className="text-[9px] font-heading text-accent/60 leading-none">+273% more reviews</p>
         </div>
       </motion.div>
 
-      {/* Calls answered */}
+      {/* New reviews */}
       <motion.div
         initial={{ opacity: 0, y: 10, scale: 0.9 }}
         animate={{ opacity: 1, y: [0, -6, 0], scale: 1 }}
@@ -107,10 +107,10 @@ export default function Hero() {
           zIndex: 3,
         }}>
         <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse shrink-0" />
-        <p className="text-[11px] font-heading font-semibold text-ink">47 calls answered today</p>
+        <p className="text-[11px] font-heading font-semibold text-ink">47 new reviews this month</p>
       </motion.div>
 
-      {/* Stars */}
+      {/* ChatGPT ranking */}
       <motion.div
         initial={{ opacity: 0, y: 10, scale: 0.9 }}
         animate={{ opacity: 1, y: [0, -4, 0], scale: 1 }}
@@ -127,10 +127,10 @@ export default function Hero() {
           zIndex: 3,
         }}>
         <p className="text-amber-500 text-xs mb-0.5">★★★★★</p>
-        <p className="text-[10px] font-heading font-semibold text-ink">4.9 avg · 127 reviews</p>
+        <p className="text-[10px] font-heading font-semibold text-ink">4.9 avg · 653 reviews</p>
       </motion.div>
 
-      {/* Job booked */}
+      {/* Visibility spike */}
       <motion.div
         initial={{ opacity: 0, x: 20, scale: 0.85 }}
         animate={{ opacity: 1, x: 0, y: [0, -5, 0], scale: 1 }}
@@ -152,12 +152,12 @@ export default function Hero() {
           </svg>
         </div>
         <div>
-          <p className="text-[10px] font-heading font-bold leading-none mb-0.5" style={{ color: '#F4F0E8' }}>Job booked</p>
-          <p className="text-[9px] font-heading leading-none" style={{ color: 'rgba(100,237,187,0.6)' }}>$380 · Tuesday 9am</p>
+          <p className="text-[10px] font-heading font-bold leading-none mb-0.5" style={{ color: '#F4F0E8' }}>Visibility</p>
+          <p className="text-[9px] font-heading leading-none" style={{ color: 'rgba(100,237,187,0.6)' }}>+7,320% · 3 months</p>
         </div>
       </motion.div>
 
-      {/* Payment pulse */}
+      {/* AI search pulse */}
       <motion.div
         initial={{ opacity: 0, scale: 0.7 }}
         animate={{ opacity: [0, 1, 1, 0], scale: [0.7, 1, 1, 0.9] }}
@@ -169,10 +169,10 @@ export default function Hero() {
           boxShadow: '0 4px 20px rgba(13,31,24,0.08)',
           zIndex: 3,
         }}>
-        <span className="text-base">💳</span>
+        <span className="text-base">🤖</span>
         <div>
-          <p className="text-[10px] font-heading font-bold text-ink leading-none mb-0.5">Payment received</p>
-          <p className="text-[9px]" style={{ color: '#5A7A6A' }}>$420 · Mike&apos;s Plumbing</p>
+          <p className="text-[10px] font-heading font-bold text-ink leading-none mb-0.5">Found via ChatGPT</p>
+          <p className="text-[9px]" style={{ color: '#5A7A6A' }}>New customer · AI search</p>
         </div>
       </motion.div>
 
@@ -183,31 +183,31 @@ export default function Hero() {
           <motion.p custom={0} variants={fade} initial="hidden" animate="visible"
             className="text-sm font-heading font-medium uppercase tracking-widest mb-6 sm:mb-8"
             style={{ color: '#5A7A6A', letterSpacing: '0.16em' }}>
-            For SMBs
+            For Local Businesses
           </motion.p>
 
           <motion.h1 custom={0.1} variants={fade} initial="hidden" animate="visible"
             className="font-heading font-bold tracking-tighter leading-[0.91] mb-6 sm:mb-8"
             style={{ fontSize: 'clamp(2.8rem, 5.8vw, 5.8rem)', color: '#0D1F18' }}>
-            <span className="sr-only">AI Call Answering & Google Maps for Home Services.</span>
-            Found on Google.
-            <br />Calls answered.
-            <br /><span className="text-gradient-accent">Jobs paid.</span>
+            <span className="sr-only">Local SEO, Google Maps, Reviews & AI Search for Small Businesses.</span>
+            Get Found Online.
+            <br />More Reviews.
+            <br /><span className="text-gradient-accent">More Revenue.</span>
           </motion.h1>
 
           <motion.p custom={0.2} variants={fade} initial="hidden" animate="visible"
             className="text-base sm:text-lg leading-relaxed mb-8 sm:mb-10"
-            style={{ color: '#5A7A6A', maxWidth: 370 }}>
-            We rank you #1 on Google Maps, answer every call 24/7, and collect payment — all without lifting a finger.
+            style={{ color: '#5A7A6A', maxWidth: 390 }}>
+            We rank you on Google Maps, build 5-star reviews, post content across all platforms, and get you found on ChatGPT — all on autopilot.
           </motion.p>
 
-          {/* 2 weeks free badge */}
+          {/* Guarantee badge */}
           <motion.div custom={0.25} variants={fade} initial="hidden" animate="visible"
             className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full mb-5"
             style={{ background: 'rgba(13,92,58,0.08)', border: '1px solid rgba(13,92,58,0.2)' }}>
             <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse shrink-0" />
             <span className="text-sm font-heading font-semibold" style={{ color: '#0D5C3A' }}>
-              2 weeks free — no card required
+              3-month results guarantee — or we keep working free
             </span>
           </motion.div>
 
@@ -219,21 +219,21 @@ export default function Hero() {
               style={{ background: '#0D1F18', color: '#64EDBB' }}
               onMouseEnter={e => { e.currentTarget.style.background = '#1A3828'; e.currentTarget.style.boxShadow = '0 8px 32px rgba(13,31,24,0.2)' }}
               onMouseLeave={e => { e.currentTarget.style.background = '#0D1F18'; e.currentTarget.style.boxShadow = 'none' }}>
-              Start Free — No Card Needed
+              Book a Free Strategy Call
               <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform" />
             </a>
-            <a href="#features"
+            <a href="#results"
               className="text-sm font-medium underline underline-offset-4 transition-colors text-center sm:text-left"
               style={{ color: '#8AADA0', textDecorationColor: '#C8C0B0' }}
               onMouseEnter={e => (e.currentTarget.style.color = '#0D1F18')}
               onMouseLeave={e => (e.currentTarget.style.color = '#8AADA0')}>
-              See how it works
+              See real results
             </a>
           </motion.div>
 
           <motion.p custom={0.4} variants={fade} initial="hidden" animate="visible"
             className="text-xs mt-5" style={{ color: '#8AADA0' }}>
-            $497/mo after trial&nbsp;&middot;&nbsp;Cancel anytime&nbsp;&middot;&nbsp;Setup in 48 hours
+            $597/mo per location&nbsp;&middot;&nbsp;Cancel anytime&nbsp;&middot;&nbsp;Setup in 48 hours
           </motion.p>
 
         </div>

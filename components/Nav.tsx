@@ -17,10 +17,10 @@ const BrickMark = ({ color }: { color: string }) => (
 )
 
 const navLinks = [
-  { label: 'Google Maps', href: '#local-map' },
-  { label: 'Call Triage', href: '#features'  },
-  { label: 'Pricing',     href: '#pricing'   },
-  { label: 'FAQ',         href: '#faq'       },
+  { label: 'Results',  href: '#results'  },
+  { label: 'Services', href: '#features' },
+  { label: 'Pricing',  href: '#pricing'  },
+  { label: 'FAQ',      href: '#faq'      },
 ]
 
 export default function Nav() {
@@ -82,7 +82,7 @@ export default function Nav() {
               }}
               onMouseEnter={e => { e.currentTarget.style.opacity = '0.85' }}
               onMouseLeave={e => { e.currentTarget.style.opacity = '1'    }}>
-              Start Free — No Card
+              Book a Free Call
             </a>
           </div>
 
@@ -112,7 +112,7 @@ export default function Nav() {
             onClick={() => setMenuOpen(false)}
             className="flex items-center justify-center w-full mt-4 py-3.5 bg-ink text-bg font-heading font-bold text-sm rounded-xl"
             style={{ color: '#64EDBB' }}>
-            Start Free Trial — No Card Needed
+            Book a Free Strategy Call
           </a>
         </div>
       )}

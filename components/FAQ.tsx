@@ -7,32 +7,32 @@ import AnimatedSection from './AnimatedSection'
 
 const faqs = [
   {
-    q: 'Does the AI sound robotic? Will customers know?',
-    a: "No. Our AI sounds like a professional receptionist — calm, clear, natural. It introduces itself using your business name. Most customers have no idea they're not talking to a person. And frankly, most don't care as long as they get helped immediately.",
+    q: 'How quickly will I see results?',
+    a: "Most clients see measurable ranking movement within 30 days. Significant improvement — top 3 positions across your service area — typically happens within 90 days. If you don't see measurable improvement in 3 months, we keep working at no additional cost. That's our guarantee.",
   },
   {
-    q: "What happens if there's a real emergency?",
-    a: 'Urgent calls — burst pipes, electrical hazards, gas leaks — get flagged and transferred directly to your cell in real time. The AI doesn\'t sit on it. You hear about it within seconds.',
+    q: 'What types of businesses do you work with?',
+    a: "Any local business with a physical location or service area: restaurants, medical and dental clinics, law firms, contractors, salons, med spas, retail shops, and more. If customers search for you online, we can help you rank.",
   },
   {
-    q: 'Do I need to set anything up?',
-    a: "No. We handle the entire setup. You give us access to your Google Business Profile and tell us how you want calls handled. We take it from there. Most clients are live within 48 hours.",
+    q: 'What does "full Google Business Profile management" mean?',
+    a: "We optimize every section — services, descriptions, attributes, photos — and publish fresh posts weekly. Google rewards active profiles with higher rankings. We treat it like a living asset, not a set-it-and-forget-it page.",
   },
   {
-    q: 'What happens after the free trial?',
-    a: "$497/month, month-to-month. No long-term contracts. No cancellation fees. If it's not working, you cancel and that's that. We're confident enough in the system that we don't need to lock you in.",
+    q: 'How is your content different from generic AI content?',
+    a: "Generic AI content is ignored by Google's algorithm and doesn't build trust with customers. Everything we create is specific to your business, your location, your services, and your voice. It'll look like you actually wrote it — because it reads like a human who knows your business did.",
   },
   {
-    q: 'I already have a Google Business Profile. Does that matter?',
-    a: "Great — that's a head start. We optimize what you have: adding posts, uploading job photos, responding to reviews, and building citations to improve your local ranking. If you don't have a profile yet, we set one up for you.",
+    q: 'What is AI search optimization, exactly?',
+    a: "When someone asks ChatGPT, Gemini, or Perplexity for a local recommendation, those platforms pull from structured data, citations, and active online profiles. We build and maintain everything those AI platforms check — so you appear when customers ask AI instead of Google.",
   },
   {
-    q: 'What trades does this work for?',
-    a: "Plumbing, electrical, roofing, HVAC, pest control, landscaping, general contracting, painting — any home service business that gets jobs from phone calls and Google searches. If you're running a phone-dependent business, this is built for you.",
+    q: 'Do I need to be involved day-to-day?',
+    a: "No. Onboarding takes a few minutes — you give us access and share your preferences. After that, 90%+ of our clients run fully on autopilot. We only reach out when we need something from you to get better results.",
   },
   {
-    q: 'What if I use a different scheduling tool?',
-    a: "We integrate with the most common tools — Google Calendar, Jobber, Housecall Pro, ServiceTitan, and others. If you use something specific, let us know and we'll figure it out.",
+    q: 'Is there a long-term contract?',
+    a: "$597/month, month-to-month. No annual contracts, no cancellation fees. If it's not working, you cancel and that's it. We're confident enough in our results that we don't need to lock you in.",
   },
 ]
 

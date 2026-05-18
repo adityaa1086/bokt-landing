@@ -35,13 +35,13 @@ export default function Footer() {
           <AnimatedSection delay={0.1}>
             <h2 className="font-heading font-bold text-3xl sm:text-5xl lg:text-6xl tracking-tighter mb-4 leading-tight"
               style={{ color: '#0D1F18' }}>
-              Stop losing jobs
-              <br /><span style={{ color: 'rgba(13,31,24,0.35)' }}>to your voicemail.</span>
+              Stop being invisible
+              <br /><span style={{ color: 'rgba(13,31,24,0.35)' }}>to your customers.</span>
             </h2>
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
             <p className="max-w-md mx-auto mb-8" style={{ color: '#5A7A6A' }}>
-              2 weeks free. No credit card. No contract. If it doesn&rsquo;t make you money, you owe us nothing.
+              Google Maps. 5-star reviews. AI search. Social media. All handled for you. If you don&rsquo;t see measurable improvement in 3 months, we keep working — free.
             </p>
           </AnimatedSection>
           <AnimatedSection delay={0.25}>
@@ -50,11 +50,11 @@ export default function Footer() {
               style={{ background: '#0D1F18', color: '#64EDBB' }}
               onMouseEnter={e => { e.currentTarget.style.background = '#1A3828'; e.currentTarget.style.boxShadow = '0 8px 32px rgba(13,31,24,0.2)'; }}
               onMouseLeave={e => { e.currentTarget.style.background = '#0D1F18'; e.currentTarget.style.boxShadow = 'none'; }}>
-              Start Free Trial
+              Book a Free Strategy Call
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform duration-200" />
             </a>
             <p className="text-sm mt-4" style={{ color: '#8AADA0' }}>
-              Then $497/mo. Cancel anytime.
+              $597/mo per location. Cancel anytime.
             </p>
           </AnimatedSection>
         </div>
@@ -69,14 +69,14 @@ export default function Footer() {
               <span className="font-heading font-bold text-lg tracking-tight" style={{ color: '#F4F0E8' }}>BOKT</span>
             </div>
             <p className="text-xs max-w-[220px]" style={{ color: 'rgba(244,240,232,0.35)' }}>
-              AI call answering &amp; Google Maps optimization for home service businesses.
+              Local marketing for small businesses — Google Maps, Reviews, AI Search &amp; Social Media.
             </p>
           </div>
 
           <nav className="flex flex-wrap gap-x-8 gap-y-2">
             {[
-              { label: 'Google Maps', href: '#local-map' },
-              { label: 'Call Triage', href: '#features' },
+              { label: 'Results',     href: '#results'   },
+              { label: 'Services',    href: '#features'  },
               { label: 'Pricing',     href: '#pricing'   },
               { label: 'FAQ',         href: '#faq'       },
               { label: 'Book a Call', href: 'https://calendly.com/d/cx85-p96-f7t/bokt-home-introduction', external: true },

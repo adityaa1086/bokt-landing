@@ -6,28 +6,28 @@ import AnimatedSection from './AnimatedSection'
 
 const stats = [
   {
-    number: 85,
+    number: 90,
     suffix: '%',
-    label: 'of voicemail callers never call back',
-    note: 'Gone for good',
+    label: 'of consumers find local businesses on Google, Maps, or AI search',
+    note: 'If you\'re not there, you don\'t exist',
   },
   {
-    number: 2,
-    suffix: ' in 3',
-    label: 'calls missed during business hours',
-    note: 'Industry average',
+    number: 7320,
+    suffix: '%',
+    label: 'best visibility improvement for a client — in just 3 months',
+    note: 'Solar contractor, Google Maps',
   },
   {
-    number: 44,
-    suffix: '%',
-    label: 'of Google clicks go to Map Pack top 3',
-    note: "If you're not there, they call someone else",
+    number: 62,
+    suffix: '+',
+    label: 'directories we submit your business to — automatically',
+    note: 'Google, ChatGPT, and AI platforms check these',
   },
   {
-    number: 83,
-    suffix: '%',
-    label: 'of homeowners still prefer to call',
-    note: "The phone isn't going away",
+    number: 3,
+    suffix: ' mo',
+    label: 'average time to see measurable ranking improvement',
+    note: 'Guaranteed or we keep working free',
   },
 ]
 
